@@ -14,9 +14,7 @@ public class Ejercicio26 {
     /**
      * @param args the command line arguments
      */
-    
-public class Temaa2Ejercicio26 {
-
+   
     public static void main(String[] args) { //Declaro las variables
         int numero;
         int x;
@@ -37,9 +35,7 @@ public class Temaa2Ejercicio26 {
         System.out.println("La segunda cifra es: " + y);
         System.out.println("La tercera cifra es: " + z);
         System.out.println("La cuarta cifra es: " + w);
-        }
-    }
-    
+        }  
 }
     
 
