@@ -28,7 +28,9 @@ public class Tema03 {
             indice++;
         } while (indice < 10);
         //FOR
+        for(int i =0; i < 10; i++) {
+            System.out.println("indice");
+        }
     }
-    
-    
+     
 }
