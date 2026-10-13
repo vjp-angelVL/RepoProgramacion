@@ -17,12 +17,14 @@ public class Ejercicio15 {
     public static void main(String[] args) {
         Scanner entrada =  new Scanner(System.in);
         System.out.println("Introduzca un número para calcular su tabla de multiplicar");
-        int resultado = numero * i;
+        
         int i = 0;
-        numero = entrada.nextInt();
+        int numero = entrada.nextInt();
         do{
+            int resultado = numero * i;
             System.out.println(resultado);
             i++;
+            
         }while (i < 10);
        
                 
