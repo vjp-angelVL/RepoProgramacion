@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package ejercicio22;
-import java.util.Scanner;
-import java.util.InputMismatchException;
+import java.util.Scanner; //Importo el scanner
+import java.util.InputMismatchException; //Importo la excepción
 
 /**
  *
@@ -20,17 +20,17 @@ public class Ejercicio22 {
         Scanner entrada = new Scanner(System.in);
 
         try {
-            System.out.print("Introduzca el primer numero: ");
+            System.out.print("Introduzca el primer numero: "); //Almaceno el primer número
             int num1 = entrada.nextInt();
 
-            System.out.print("Introduzca el segundo numero: ");
+            System.out.print("Introduzca el segundo numero: "); //Almaceno el segundo número
             int num2 = entrada.nextInt();
 
-            int suma = num1 + num2;
+            int suma = num1 + num2; //Suma
 
             System.out.println("La suma es: " + suma);
-
-        } catch (InputMismatchException e) {
+        //Para que el usuario no escriba una letra
+        } catch (InputMismatchException e)  {
             System.out.println("Error: debe introducir numeros enteros.");
         }
     }

@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package ejercicio23;
-import java.util.Scanner;
+import java.util.Scanner; //Importo el scanner
 /**
  *
  * @author Ángel Vegas López
@@ -20,8 +20,8 @@ public class Ejercicio23 {
 
         do {
             System.out.print("Introduzca un numero mayor que 1: ");
-            numero = entrada.nextInt();
-
+            numero = entrada.nextInt(); //Almaceno el número
+            //Para que el número sea mayor que 1
             if (numero <= 1) {
                 System.out.println("Error: el numero debe ser mayor que 1.");
             }
@@ -30,7 +30,7 @@ public class Ejercicio23 {
 
         int contador = 1;
 
-        while (contador <= numero) {
+        while (contador <= numero) { // Para immprimir la cantidad de números que hay entre ambos
             System.out.println(contador);
             contador++;
         }

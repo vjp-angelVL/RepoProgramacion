@@ -17,11 +17,11 @@ public class Ejercicio25 {
     public static void main(String[] args) {
         int suma = 0;
 
-        for (int i = 18; i <= 139; i = i + 2) {
-            suma = suma + i;
+        for (int i = 18; i <= 139; i = i + 2)  { //para elegir solo los pares
+            suma = suma + i; //Calcula el resultado de los pares
         }
 
-        System.out.println("La suma de los numeros pares entre 17 y 139 es: " + suma);
+        System.out.println("La suma de los numeros pares entre 17 y 139 es: " + suma); //Muestra el resultado
     }
 }
 

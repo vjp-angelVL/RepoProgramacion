@@ -17,11 +17,11 @@ public class Ejercicio26 {
     public static void main(String[] args) {
         int suma = 0;
 
-        for (int i = 111; i <= 222; i = i + 2) {
-            suma = suma + i;
+        for (int i = 111; i <= 222; i = i + 2) { //Para que escoja solo los impares
+            suma = suma + i; //Calculo de la suma de los impares
         }
 
-        System.out.println("La suma de los numeros impares entre 111 y 222 es: " + suma);
+        System.out.println("La suma de los numeros impares entre 111 y 222 es: " + suma); //imprimo la suma por pantalla
     }
 }
 

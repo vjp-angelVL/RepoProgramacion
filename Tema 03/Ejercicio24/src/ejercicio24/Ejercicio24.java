@@ -20,26 +20,26 @@ public class Ejercicio24 {
 
         do {
             System.out.print("Introduzca un numero mayor que 0: ");
-            numero = entrada.nextInt();
+            numero = entrada.nextInt(); //Almaceno el número
 
             if (numero <= 0) {
-                System.out.println("Error: el numero debe ser mayor que 0.");
+                System.out.println("Error: el numero debe ser mayor que 0."); //Para que el número sea superior a 0
             }
 
         } while (numero <= 0);
 
-        int contador = 3;
-        int cantidad = 0;
+        int contador = 3; //Para que cuente cada 3 números
+        int cantidad = 0; //Establezco el contador a 0
 
-        System.out.println("Los multiplos de 3 son:");
+        System.out.println("Los multiplos de 3 son:"); //Para imprimir cada 3 números
 
-        while (contador <= numero) {
+        while (contador <= numero) { //Para que se repita hasta que llegue al número introducido
             System.out.println(contador);
             cantidad++;
-            contador = contador + 3;
+            contador = contador + 3; //Para que se vayan sumando al número anterior
         }
 
-        System.out.println("Total de numeros mostrados: " + cantidad);
+        System.out.println("Total de numeros mostrados: " + cantidad); //Mostrará el número de números impresos
     }
 }
 
